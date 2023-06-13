@@ -1,0 +1,18 @@
+package colfer
+
+type colfbuf struct {
+	time       timestamp
+	interval   float64
+	datalength     int64
+	directvch0 []float64
+	directvch1 []float64
+	directvch2 []float64
+	directvch3 []float64
+	diffv      []float64
+	heatervch0 []float64
+	heatervch1 []float64
+	diffheaterv []float64
+	heaterpch0 []float64
+	heaterpch1 []float64
+	diffheaterp []float64
+}
